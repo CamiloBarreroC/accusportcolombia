@@ -16,6 +16,7 @@
         .card-tech { background: #11141d; border: 1px solid rgba(255, 255, 255, 0.05); transition: all 0.3s ease; }
         .card-tech:hover { border-color: #FF6600; background: #161b26; transform: translateY(-3px); }
         .vision-box { border-left: 4px solid #FF6600; background: linear-gradient(90deg, #161b26 0%, #0a0c12 100%); }
+        .pos-card { border-bottom: 2px solid #FF6600; }
     </style>
 </head>
 <body>
@@ -28,16 +29,18 @@
                 </svg>
                 <span class="text-xl font-black tracking-tighter uppercase italic">ACCU<span class="accent-orange">SPORT</span></span>
             </div>
-            <div class="space-x-6 hidden md:flex">
-                <a href="#targets" class="nav-link hover:text-[#FF6600] transition text-[10px] uppercase tracking-widest font-bold">Ecosistema</a>
-                <a href="#pipeline" class="nav-link hover:text-[#FF6600] transition text-[10px] uppercase tracking-widest font-bold">Sistema</a>
-                <a href="#layers" class="nav-link hover:text-[#FF6600] transition text-[10px] uppercase tracking-widest font-bold">Capas</a>
+            <div class="space-x-4 hidden md:flex">
+                <a href="#targets" class="nav-link hover:text-[#FF6600] transition text-[9px] uppercase tracking-widest font-bold">Ecosistema</a>
+                <a href="#posicionamiento" class="nav-link hover:text-[#FF6600] transition text-[9px] uppercase tracking-widest font-bold">Identidad</a>
+                <a href="#pipeline" class="nav-link hover:text-[#FF6600] transition text-[9px] uppercase tracking-widest font-bold">Sistema</a>
+                <a href="#proyeccion" class="nav-link hover:text-[#FF6600] transition text-[9px] uppercase tracking-widest font-bold">Impacto</a>
+                <a href="#layers" class="nav-link hover:text-[#FF6600] transition text-[9px] uppercase tracking-widest font-bold">Capas</a>
             </div>
         </div>
     </nav>
 
     <section class="min-h-screen flex flex-col justify-center items-center text-center px-4 pt-24">
-        <h1 class="text-5xl md:text-7xl font-black mb-4 tracking-tighter italic uppercase text-shadow-tech">ACCU<span class="accent-orange">SPORT</span></h1>
+        <h1 class="text-5xl md:text-8xl font-black mb-4 tracking-tighter italic uppercase text-shadow-tech">ACCU<span class="accent-orange">SPORT</span></h1>
         <p class="text-lg md:text-xl text-gray-400 max-w-4xl font-light mb-12 tracking-widest uppercase">
             Infraestructura de Scouting Longitudinal e Inteligencia de Datos.
         </p>
@@ -50,14 +53,32 @@
         </div>
 
         <div class="flex flex-col md:flex-row gap-6">
-            <a href="#targets" class="bg-orange text-white px-12 py-4 rounded-lg font-bold hover:scale-105 transition-transform uppercase text-xs tracking-widest">Ver Ecosistema</a>
+            <a href="#targets" class="bg-orange text-white px-12 py-4 rounded-lg font-bold hover:scale-105 transition-transform uppercase text-xs tracking-widest">Ver Infraestructura</a>
+        </div>
+    </section>
+
+    <section id="posicionamiento" class="py-24 bg-[#0f121a]">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-2xl font-bold uppercase tracking-[0.3em] accent-orange mb-12 italic">Posicionamiento</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="p-8 bg-[#161b26] pos-card rounded-t-xl opacity-60">
+                    <h3 class="text-gray-500 font-bold uppercase tracking-widest">No somos Academia</h3>
+                </div>
+                <div class="p-8 bg-[#161b26] pos-card rounded-t-xl opacity-60">
+                    <h3 class="text-gray-500 font-bold uppercase tracking-widest">No somos Agencia</h3>
+                </div>
+                <div class="p-10 card-tech border-2 border-orange rounded-xl">
+                    <h3 class="text-white font-black uppercase tracking-widest mb-4">Somos Infraestructura</h3>
+                    <p class="text-xs text-gray-400 italic uppercase">Para inteligencia juvenil en fútbol</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="targets" class="py-24 bg-[#0a0c12]">
         <div class="max-w-7xl mx-auto px-4">
             <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold uppercase tracking-[0.2em] accent-orange">Targets de Impacto</h2>
+                <h2 class="text-3xl font-bold uppercase tracking-[0.2em] accent-orange italic">Targets de Impacto</h2>
                 <div class="h-1 w-20 bg-orange mx-auto mt-4"></div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
@@ -66,12 +87,12 @@
                     <p class="text-sm text-gray-400 font-light italic leading-relaxed">Estructura y seguimiento profesional al desarrollo deportivo mediante datos históricos.</p>
                 </div>
                 <div class="p-10 card-tech rounded-3xl border-orange/20">
-                    <h3 class="text-xl font-bold mb-4 uppercase italic">Clubes</h3>
+                    <h3 class="text-xl font-bold mb-4 uppercase italic text-orange-400">Clubes</h3>
                     <p class="text-sm text-gray-400 font-light italic leading-relaxed">Infraestructura técnica para el análisis profundo de sus categorías formativas.</p>
                 </div>
                 <div class="p-10 card-tech rounded-3xl">
                     <h3 class="text-xl font-bold mb-4 uppercase italic">Scouts</h3>
-                    <p class="text-sm text-gray-400 font-light italic leading-relaxed">Acceso a registros comparables para un reclutamiento basado en evidencia.</p>
+                    <p class="text-sm text-gray-400 font-light italic leading-relaxed">Acceso a registros comparables para un reclutamiento basado en evidencia científica.</p>
                 </div>
             </div>
         </div>
@@ -105,7 +126,30 @@
         </div>
     </section>
 
-    <section id="layers" class="py-24 bg-[#0a0c12]">
+    <section id="proyeccion" class="py-24 bg-[#0a0c12]">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold uppercase tracking-[0.3em] italic accent-orange">Proyección 3 Años</h2>
+                <p class="text-gray-500 mt-4 text-xs tracking-widest uppercase">Escalabilidad de registros longitudinales juveniles</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-8 bg-[#161b26] rounded-2xl border border-gray-800 text-center">
+                    <p class="text-4xl font-black accent-orange mb-2 italic">200</p>
+                    <p class="text-[10px] uppercase text-gray-500 tracking-widest font-bold italic">Perfiles Año 1</p>
+                </div>
+                <div class="p-8 bg-[#161b26] rounded-2xl border-2 border-orange/40 text-center shadow-lg shadow-orange/10">
+                    <p class="text-4xl font-black accent-orange mb-2 italic">600+</p>
+                    <p class="text-[10px] uppercase text-gray-500 tracking-widest font-bold italic">Perfiles Año 2</p>
+                </div>
+                <div class="p-8 bg-[#161b26] rounded-2xl border border-gray-800 text-center">
+                    <p class="text-4xl font-black accent-orange mb-2 italic">1.500+</p>
+                    <p class="text-[10px] uppercase text-gray-500 tracking-widest font-bold italic">Perfiles Año 3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="layers" class="py-24 bg-[#0f121a]">
         <div class="max-w-7xl mx-auto px-4">
             <div class="text-center mb-20">
                 <h2 class="text-4xl font-black uppercase tracking-[0.3em] italic">Capas de Inteligencia</h2>
@@ -115,9 +159,25 @@
                     <h3 class="text-gray-500 font-bold mb-8 uppercase tracking-[0.2em] text-xs">Capa Pública (Lite Profile)</h3>
                     <ul class="space-y-4 text-sm text-gray-400 italic font-light">
                         <li>• Perfil estandarizado del jugador</li>
-                        <li>• Narrativa de rendimiento resumida</li>
+                        <li>• Resumen narrativo de rendimiento</li>
                         <li>• Selección de highlights técnicos</li>
                     </ul>
                 </div>
                 <div class="p-12 card-tech rounded-3xl border-t-4 border-orange relative overflow-hidden shadow-2xl">
-                    <h3 class="accent-orange font-bold mb-8 uppercase tracking
+                    <h3 class="accent-orange font-bold mb-8 uppercase tracking-[0.2em] text-xs">Capa Privada (Full Engine)</h3>
+                    <ul class="space-y-4 text-sm text-gray-100 italic font-bold">
+                        <li>• Reportes de scouting detallados</li>
+                        <li>• Dashboard de métricas históricas</li>
+                        <li>• Análisis técnico longitudinal total</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 text-center border-t border-gray-900 bg-[#0a0c12]">
+        <h4 class="text-[12px] tracking-[0.6em] uppercase font-black accent-orange mb-4 italic text-shadow-tech">ACCUSPORT COLOMBIA</h4>
+        <p class="text-[9px] text-gray-600 uppercase tracking-widest font-bold">Infraestructura de Scouting Longitudinal</p>
+    </footer>
+</body>
+</html>
